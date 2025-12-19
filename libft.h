@@ -6,7 +6,7 @@
 /*   By: mzouhir <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/05 13:53:40 by mzouhir           #+#    #+#             */
-/*   Updated: 2025/12/02 12:16:07 by mzouhir          ###   ########.fr       */
+/*   Updated: 2025/12/15 15:12:41 by mzouhir          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,5 +75,6 @@ void	ft_printmajhex(unsigned int nb, int *count);
 void	ft_printadd(unsigned long nb, int *count);
 void	ft_printf_format(va_list ap, char c, int *count);
 int		ft_printf(const char *format, ...);
+long	ft_atol(const char *str);
 
 #endif
